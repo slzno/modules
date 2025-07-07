@@ -20,15 +20,15 @@ class ConsoleServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //$this->registerDisableCommand();
-        //$this->registerEnableCommand();
-        //$this->registerListCommand();
-        //$this->registerMigrateCommand();
-        //$this->registerMigrateRefreshCommand();
-        //$this->registerMigrateResetCommand();
-        //$this->registerMigrateRollbackCommand();
+        $this->registerDisableCommand();
+        $this->registerEnableCommand();
+        $this->registerListCommand();
+        $this->registerMigrateCommand();
+        $this->registerMigrateRefreshCommand();
+        $this->registerMigrateResetCommand();
+        $this->registerMigrateRollbackCommand();
         $this->registerOptimizeCommand();
-        //$this->registerSeedCommand();
+        $this->registerSeedCommand();
     }
 
     /**
